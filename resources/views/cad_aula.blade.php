@@ -21,9 +21,21 @@
                   <form method="post" action="{{route('cadastro-categoria')}}">
                     @csrf
                   <div class="input-style-1 fs-4 ">
-                    <label class="fs-4">Categoria</label>
+                    <label class="fs-4">Código do Curso</label>
                     
-                      <input type="text" name="nomecategoria" placeholder="Programação" />
+                      <input type="text" name="idcurso" placeholder="123" />
+                    
+                  </div>
+                  <div class="input-style-1 fs-4 ">
+                    <label class="fs-4">Título da Aula</label>
+                    
+                      <input type="text" name="tituloaula" placeholder="String no PHP -  recursos novos" />
+                    
+                  </div>
+                  <div class="input-style-1 fs-4 ">
+                    <label class="fs-4">URL do Vídeo da aula</label>
+                    
+                      <input type="text" name="urlaula" placeholder="http://www.youtube.com.br/78de2st" />
                     
                   </div>
                   <div class="col-auto">
